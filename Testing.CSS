@@ -1,0 +1,27 @@
+body {
+    background-color: #f2f2f2;
+}
+
+@font-face {
+    font-family: "Myst";
+    src: url("Materials/Fonts/Myst/MystHandwritten.woff2"), format ("woff2");
+    src: url("Materials/Fonts/Myst/MystHandWritten.ttf"), format ("truetype");
+    src: url("Materials/Fonts/Myst/MystHandWritten.woff"), format ("woff");
+}
+
+.BigTitle {
+    background-color: #ff0000;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    color: #f2f2f2;
+    font-family: "Myst", serif;
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    margin:auto;
+}
+
+.WhiteLady {
+    padding-right: 20px;
+    height: 100px;
+}
